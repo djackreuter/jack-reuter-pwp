@@ -32,17 +32,27 @@
 			focusing on the whole package regarding the online portfolios of the candidates that have
 			applied. He is looking at the appearance and functionality of the candidates website, as well as the
 			projects it contains. So far he has not found anybody that has both an impressive resume, online portfolio, and
-			the right personality and soft skills to match. He has been looking at multiple candidates sites everyday for a
+			the right personality and soft skills to match. He has been looking at multiple candidates resumes and
+			portfolio sites everyday for a
 			week. With his two week deadline fast approaching, he is starting to think that his ideal candidate
 			might not exist.</p>
 		<p><strong>Goals:</strong> John's main concern is whether or not a potential candidate has the appropriate
-			foundation of knowledge and appropriate skills to be a valuable employee. John wants to look at the
+			foundation of knowledge and appropriate skills to be a valuable employee. John looks at the
 			candidates websites and know after 5 min of browsing the content, and judging the appearance of the overall
 			site, if this candidate is worthy of an interview. He is paying close attention to the functionality of the
 			site and thinks that it is a good way to get an idea of each developers skills and attention to detail.
 			John wants to find a site that is easy to navigate, has seamless functionality, and is not over complicated
 			for the user. If the site is too difficult to figure out how to navigate, John will spend no more than 30
-			seconds on it.</p>
-		<p><strong>Use Case:</strong> </p>
+			seconds on it, cross that applicants name off the list and move on to the next one.</p>
+		<p><strong>Use Case:</strong> It's Monday morning and John is looking over resumes and online
+			portfolio sites on his Macbook and getting ready to contact the candidates he believes would be a good fit for
+			the job. John comes across my resume and thinks that I look good on paper and he decides to look at my personal
+			website as well. John notices the professional layout of my site right away and has no problem navigating to
+			the different areas on the page. He likes the responsiveness of the site and has a look at the projects section
+			to see what else I've done. Still impressed after seeing what projects I've worked on, John decides to put me
+			down as a candidate to interview. He wants to set up in-person interviews on Tuesday and Wednesday so that
+			he can make his decision on who he wants to hire by the weekend. He has a total of 7 candidates to interview
+			starting at 10am Tuesday morning. He will interview 4 candidates on Tuesday and the remaining 3 on Wednesday.
+		</p>
 	</body>
 </html>
