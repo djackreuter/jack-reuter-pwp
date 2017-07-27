@@ -1,7 +1,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<title>milestone 2</title>
+		<title>Milestone 2</title>
 	</head>
 	<body>
 		<!-- document the kind of content that you plan to feature on your site, and the purpose and strategy behind it
