@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8"/>
 		<title>Milestone 2</title>
@@ -26,13 +26,12 @@
 			</li>
 		</ul>
 		<h3>Main Content</h3>
-		<p>The <em>Home</em> section will essentially be the top of the page. It will and have a picture of something
-			code related or a scenic picture of Albuquerque. The idea of the picture will be to add illustrations to
-			the page to show employers that I am a developer, or if I chose the scenic picture of Albuquerque, it will
-			show that I am invested in the community.</p>
+		<p>The <em>Home</em> section will essentially be the top of the page. It will and have a picture of me working
+			on my laptop and a quote over the image. The idea of the picture will be to show employers that I am an
+			active developer</p>
 		<p>The <em>About</em> button will bring the user to a section containing a bio about me. It will contain a
 			small picture of me at the as well as a summary of me on both a personal and professional level. The idea
-			behind this is to give employers an idea of who I am outside of the scope of a resume.</p>
+			behind this is to give employers an idea of who I am outside the scope of a resume.</p>
 		<p>The <em>Projects</em> button will bring the user to a section containing a gallery of projects that I've
 			done. It will contain the capstone, as well as other development projects. It will be used to showcase my
 			skills and capabilities to potential employers. It will also show employers all the projects I have been apart
@@ -42,6 +41,6 @@
 		<h3>Footer</h3>
 		<p>The last section will be the footer at the very bottom. This will contain links to my LinkedIn profile,
 			Twitter account, and GitHub profile. This will allow a potential employer to be able to find other relevant
-			pages about me without having to go searching.</p>
+			sites about me without having to do additional searching.</p>
 	</body>
 </html>
