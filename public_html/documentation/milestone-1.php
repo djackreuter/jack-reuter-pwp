@@ -6,6 +6,7 @@
 	</head>
 	<body>
 		<h1>Milestone 1</h1>
+		<a href="milestone-2.php">Milestone-2</a>
 		<p><strong>Purpose:</strong> My personal website will be an online portfolio showcasing the work I've done as
 			a developer in order to help me gain employment from a company.</p>
 		<p><strong>Audience:</strong> This site will be set up and designed for potential employers, hiring managers,
@@ -56,3 +57,4 @@
 			Tuesday and the remaining 3 on Wednesday.</p>
 	</body>
 </html>
+

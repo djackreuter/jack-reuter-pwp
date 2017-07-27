@@ -7,6 +7,7 @@
 		<!-- document the kind of content that you plan to feature on your site, and the purpose and strategy behind it
 		 -->
 		<h1>Content Strategy</h1>
+		<a href="milestone-1.php">Milestone-1</a>
 		<h3>Header</h3>
 		<p>The header of the site will contain my name and also contain four navigation buttons horizontally across the
 			bottom that will direct the user to that section of the page when clicked. The header will remain fixed at
