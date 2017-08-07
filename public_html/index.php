@@ -64,11 +64,7 @@
 				</div><!-- /.container-fluid -->
 			</nav>
 		</header>
-		<header class="picture">
-			<div class="container-fluid">
-				<img src="http://via.placeholder.com/1226x604"/>
-			</div><!-- /.container-fluid -->
-		</header>
+		<div class="picture"></div>
 		<main>
 			<section>
 
