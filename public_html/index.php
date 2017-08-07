@@ -42,7 +42,8 @@
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+								  data-target="#bs-example-navbar-collapse-1">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -67,8 +68,49 @@
 		<div class="picture"></div>
 		<main>
 			<section>
+				<div class="container about">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-2">
+							<p>Pellentesque sed bibendum eros, vitae malesuada lorem. Ut posuere, purus id convallis gravida,
+								elit nunc commodo leo, quis euismod felis velit at orci. Ut sapien purus, condimentum eget arcu
+								nec, volutpat condimentum dui. Fusce gravida mauris et nisl vulputate iaculis. Orci varius
+								natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ultrices nisi
+								vel pulvinar finibus. Etiam egestas massa augue, vel dictum nisl mollis et. Curabitur sit amet
+								orci in lectus iaculis auctor eget vitae neque. Etiam ut risus at justo bibendum tempus vel
+								vulputate ligula. Etiam et nulla nec augue ultricies efficitur. Curabitur euismod, nisi iaculis
+								vestibulum facilisis, ligula justo commodo lacus, eget eleifend dolor eros pharetra neque. Duis
+								et metus lacus. Pellentesque rutrum risus vel tellus pharetra pretium.</p>
+						</div>
+					</div>
+				</div><!-- container -->
+			</section>
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10">
 
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+
+						</div>
+					</div>
+				</div>
 			</section>
 		</main>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
