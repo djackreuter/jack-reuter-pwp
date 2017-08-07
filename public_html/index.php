@@ -27,7 +27,7 @@
 		<![endif]-->
 
 		<!-- jQuery v3.0 -->
-		<script> src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"</script>
+		<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
@@ -70,7 +70,7 @@
 			<section>
 				<div class="container about">
 					<div class="row">
-						<div class="col-md-10 col-md-offset-2">
+						<div class="col-md-10 col-md-offset-1">
 							<p>Pellentesque sed bibendum eros, vitae malesuada lorem. Ut posuere, purus id convallis gravida,
 								elit nunc commodo leo, quis euismod felis velit at orci. Ut sapien purus, condimentum eget arcu
 								nec, volutpat condimentum dui. Fusce gravida mauris et nisl vulputate iaculis. Orci varius

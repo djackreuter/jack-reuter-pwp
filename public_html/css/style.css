@@ -1,6 +1,7 @@
 body {
 	background-color: rgba(36, 41, 43, 1);
 	font-family: monospace, Serif, SansSerif;
+	color: white;
 }
 
 /* navbar */
@@ -37,7 +38,13 @@ ul {
 	z-index: 1;
 	will-change: transform;
 }
-
+/*
 .about {
-
+	background-color: rgba(36, 41, 43, 1);
+	color: white;
+	position: relative;
+	z-index: 1;
+	height: 100%;
+	padding: 90px 0;
 }
+*/
