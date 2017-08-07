@@ -2,6 +2,7 @@ body {
 	background-color: rgba(36, 41, 43, 1);
 }
 
+/* navbar */
 .navbar-nav {
 	width: 100%;
 	text-align: center;
@@ -18,4 +19,18 @@ body {
 ul {
 	position: relative;
 	bottom: 5rem;
+}
+
+/* background image */
+.container-fluid {
+	padding: 0;
+}
+
+.container-fluid img {
+	position: relative;
+	bottom: 2rem;
+}
+
+.navbar-header {
+	padding-left: 1rem;
 }
