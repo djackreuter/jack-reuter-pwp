@@ -70,7 +70,15 @@
 		<section>
 			<div class="container about">
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-5">
+						<h2>About Me</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div>
+						<img class="img img-circle" src="documentation/images/placeholder-img.jpg" alt="placeholder"/>
+					</div>
+					<div class="col-md-9">
 						<p>Pellentesque sed bibendum eros, vitae malesuada lorem. Ut posuere, purus id convallis gravida,
 							elit nunc commodo leo, quis euismod felis velit at orci. Ut sapien purus, condimentum eget arcu
 							nec, volutpat condimentum dui. Fusce gravida mauris et nisl vulputate iaculis. Orci varius
@@ -81,8 +89,8 @@
 							vestibulum facilisis, ligula justo commodo lacus, eget eleifend dolor eros pharetra neque. Duis
 							et metus lacus. Pellentesque rutrum risus vel tellus pharetra pretium.</p>
 					</div>
-				</div>
-			</div><!-- container -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
 		</section>
 		<section>
 			<div class="container">
