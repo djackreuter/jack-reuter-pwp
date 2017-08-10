@@ -18,9 +18,21 @@ body {
 	height: 2rem;
 }
 
+.navbar-brand {
+	color: white;
+}
+
 ul {
 	position: relative;
 	bottom: 5rem;
+}
+
+ul li a {
+	color: white;
+}
+
+ul li a:hover {
+	color:black;
 }
 
 main {

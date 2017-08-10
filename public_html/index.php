@@ -39,7 +39,7 @@
 	<body>
 		<main>
 			<header>
-				<nav class="navbar" role="navigation">
+				<nav class="navbar navbar-fixed-top" role="navigation">
 					<div class="container-fluid">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
@@ -93,7 +93,7 @@
 			</div><!-- /.container -->
 		</section>
 		<section>
-			<div class="container">
+			<div class="container projects">
 				<div class="row">
 					<div class="col-md-10">
 
