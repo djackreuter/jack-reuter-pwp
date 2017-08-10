@@ -34,12 +34,14 @@
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 
+		<script type="text/javascript" src="js/script.js"></script>
+
 		<title>Jack Reuter | Online Portfolio</title>
 	</head>
 	<body>
 		<main id="home">
 			<header>
-				<nav class="navbar navbar-fixed-top" role="navigation">
+				<nav class="navbar navbar-fixed-top" data-target="navbar" role="navigation">
 					<div class="container-fluid">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
@@ -56,7 +58,7 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="#home">Home</a></li>
+								<li><a href="#home">Home</a></li>
 								<li><a href="#about">About</a></li>
 								<li><a href="#portfolio">Portfolio</a></li>
 								<li><a href="#contact">Contact</a></li>
@@ -93,11 +95,15 @@
 			</div><!-- /.container -->
 		</section>
 		<section>
-			<div class="container projects" id="projects">
+			<div class="container projects" id="portfolio">
 				<div class="row">
-					<div class="col-md-10">
-
-					</div><!-- /.col-md-10 -->
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<a href="documentation/images/acme.png" target="_blank"><img src="documentation/images/acme.png" alt="acme
+							web design"/> </a>
+							<h3>Acme Web Design</h3>
+						</div><!-- ./thumbnail -->
+					</div><!-- /.col-sm-6 col-md-4 -->
 				</div><!-- /.row -->
 			</div><!-- /. container projects -->
 		</section>

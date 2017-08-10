@@ -61,3 +61,12 @@ h2 {
 	margin-left: 1rem;
 }
 
+h3 {
+	color: black;
+}
+
+.thumbnail {
+	border: 2px solid black;
+	background: gray;
+}
+
