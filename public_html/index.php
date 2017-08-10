@@ -37,7 +37,7 @@
 		<title>Jack Reuter | Online Portfolio</title>
 	</head>
 	<body>
-		<main>
+		<main id="home">
 			<header>
 				<nav class="navbar navbar-fixed-top" role="navigation">
 					<div class="container-fluid">
@@ -56,10 +56,10 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="#">Home</a></li>
-								<li><a href="#">About</a></li>
-								<li><a href="#">Portfolio</a></li>
-								<li><a href="#">Contact</a></li>
+								<li class="active"><a href="#home">Home</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#portfolio">Portfolio</a></li>
+								<li><a href="#contact">Contact</a></li>
 								<!-- add to footer <li class="social pull-right"><a href="#">Social Links</a></li> -->
 							</ul>
 						</div><!-- /.navbar-collapse -->
@@ -68,7 +68,7 @@
 			</header>
 		</main>
 		<section>
-			<div class="container about">
+			<div class="container about" id="about">
 				<div class="row">
 					<div class="col-md-5">
 						<h2>About Me</h2>
@@ -93,22 +93,22 @@
 			</div><!-- /.container -->
 		</section>
 		<section>
-			<div class="container projects">
+			<div class="container projects" id="projects">
 				<div class="row">
 					<div class="col-md-10">
 
-					</div>
-				</div>
-			</div>
+					</div><!-- /.col-md-10 -->
+				</div><!-- /.row -->
+			</div><!-- /. container projects -->
 		</section>
 		<section>
-			<div class="container">
+			<div class="container contact" id="contact">
 				<div class="row">
 					<div class="col-md-8">
 
-					</div>
-				</div>
-			</div>
+					</div><!-- /.col-md-8 -->
+				</div><!-- /.row -->
+			</div><!-- /.container contact -->
 		</section>
 
 		<footer>
@@ -116,9 +116,9 @@
 				<div class="row">
 					<div class="col-xs-12">
 
-					</div>
-				</div>
-			</div>
+					</div><!-- /.col-xs-12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
 		</footer>
 	</body>
 </html>
