@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" type="text/css">
+
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
 				integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -28,6 +30,8 @@
 
 		<!-- jQuery v3.0 -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
@@ -99,8 +103,8 @@
 				<div class="row">
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="documentation/images/acme.png" title="View img in new window" target="_blank"><img
-								src="documentation/images/acme.png" alt="acme web design"/></a>
+							<a href="documentation/images/acme.png" data-fancybox="group" title="View img in new window"><img
+									src="documentation/images/acme-small.png" alt="acme web design"/></a>
 							<div class="caption">
 								<h3>Acme Web Design</h3>
 							</div><!-- /.caption -->
@@ -108,8 +112,10 @@
 					</div><!-- /.col-sm-6 col-md-4 -->
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="documentation/images/placeholder-2.jpg" title="View img in new window" target="_blank"><img
-									src="documentation/images/placeholder-2.jpg" alt="place holder picture"/></a>
+							<a href="documentation/images/placeholder-2.jpg" data-fancybox="group" title="View img in new
+							window">
+								<img src="documentation/images/placeholder-2-small.jpg" alt="place holder
+								picture"/></a>
 							<div class="caption">
 								<h3>Place Holder Project</h3>
 							</div><!-- /.caption -->
