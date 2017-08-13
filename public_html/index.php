@@ -99,10 +99,21 @@
 				<div class="row">
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="documentation/images/acme.png" target="_blank"><img src="documentation/images/acme.png" alt="acme
-							web design"/> </a>
-							<h3>Acme Web Design</h3>
-						</div><!-- ./thumbnail -->
+							<a href="documentation/images/acme.png" title="View img in new window" target="_blank"><img
+								src="documentation/images/acme.png" alt="acme web design"/></a>
+							<div class="caption">
+								<h3>Acme Web Design</h3>
+							</div><!-- /.caption -->
+						</div><!-- /.thumbnail -->
+					</div><!-- /.col-sm-6 col-md-4 -->
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<a href="documentation/images/placeholder-2.jpg" title="View img in new window" target="_blank"><img
+									src="documentation/images/placeholder-2.jpg" alt="place holder picture"/></a>
+							<div class="caption">
+								<h3>Place Holder Project</h3>
+							</div><!-- /.caption -->
+						</div><!-- /.thumbnail -->
 					</div><!-- /.col-sm-6 col-md-4 -->
 				</div><!-- /.row -->
 			</div><!-- /. container projects -->
