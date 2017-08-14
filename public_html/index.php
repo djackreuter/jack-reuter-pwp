@@ -9,9 +9,11 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+		<link href="css/lightbox.css" rel="stylesheet">
+
 		<!-- Fancybox CSS -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css"
-				 type="text/css">
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css"
+				type="text/css"> -->
 
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
@@ -33,9 +35,11 @@
 		<!-- jQuery v3.0 -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
+		<script src="js/lightbox.js"></script>
+
 		<!-- Fancybox jQuery -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min
-		.js"></script>
+		<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min
+		.js"></script> -->
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
@@ -107,7 +111,7 @@
 				<div class="row">
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="documentation/images/acme.png" data-fancybox="images"><img
+							<a href="documentation/images/acme.png" data-lightbox="images"><img
 									src="documentation/images/acme-small.png" alt="acme web design"/></a>
 							<div class="caption">
 								<h3>Acme Web Design</h3>
@@ -116,7 +120,7 @@
 					</div><!-- /.col-sm-6 col-md-4 -->
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="documentation/images/placeholder-2.jpg" data-fancybox="images">
+							<a href="documentation/images/placeholder-2.jpg" data-lightbox="images">
 								<img src="documentation/images/placeholder-2-small.jpg" alt="place holder
 								picture"/></a>
 							<div class="caption">
