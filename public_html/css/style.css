@@ -38,7 +38,7 @@ ul li a:hover {
 
 main {
 	height: 100vh;
-	background: url(../documentation/images/surface-planets.jpg) no-repeat center;
+	background: url(../images/surface-planets.jpg) no-repeat center;
 	background-attachment: fixed;
 	background-size: cover;
 	opacity: 0.5;

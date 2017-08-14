@@ -90,7 +90,7 @@
 				</div>
 				<div class="row">
 					<div>
-						<img class="img img-circle" src="documentation/images/placeholder-img.jpg" alt="placeholder"/>
+						<img class="img img-circle" src="images/placeholder-img.jpg" alt="placeholder"/>
 					</div>
 					<div class="col-md-9">
 						<p>Pellentesque sed bibendum eros, vitae malesuada lorem. Ut posuere, purus id convallis gravida,
@@ -111,8 +111,8 @@
 				<div class="row">
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="documentation/images/acme.png" data-lightbox="images"><img
-									src="documentation/images/acme-small.png" alt="acme web design"/></a>
+							<a href="images/acme.png" data-lightbox="images"><img
+									src="images/acme-small.png" alt="acme web design"/></a>
 							<div class="caption">
 								<h3>Acme Web Design</h3>
 							</div><!-- /.caption -->
@@ -120,8 +120,8 @@
 					</div><!-- /.col-sm-6 col-md-4 -->
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
-							<a href="documentation/images/placeholder-2.jpg" data-lightbox="images">
-								<img src="documentation/images/placeholder-2-small.jpg" alt="place holder
+							<a href="images/placeholder-2.jpg" data-lightbox="images">
+								<img src="images/placeholder-2-small.jpg" alt="place holder
 								picture"/></a>
 							<div class="caption">
 								<h3>Place Holder Project</h3>

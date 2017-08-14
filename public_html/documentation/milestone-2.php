@@ -44,8 +44,8 @@
 		<p>The last section will be the footer at the very bottom. This will contain links to my LinkedIn profile,
 			GitHub profile, and Twitter account. This will allow a potential employer to be able to find other relevant
 			sites about me without having to do additional searching.</p>
-		<img src="images/pwp-1.png" alt="desktop wireframe 1 of 2"/>
-		<img src="images/pwp-2.png" alt="desktop wireframe 2 of 2"/>
-		<img src="images/pwp-mobile.png" alt="mobile wireframe"/>
+		<img src="../images/pwp-1.png" alt="desktop wireframe 1 of 2"/>
+		<img src="../images/pwp-2.png" alt="desktop wireframe 2 of 2"/>
+		<img src="../images/pwp-mobile.png" alt="mobile wireframe"/>
 	</body>
 </html>
