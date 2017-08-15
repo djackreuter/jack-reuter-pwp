@@ -140,7 +140,7 @@
 								</div><!-- /.input-group -->
 							</div><!-- /.form-group -->
 							<div class="form-group">
-								<label for="email">Email<span class="text-danger">*</span></label>
+								<label for="email">Email <span class="text-danger">*</span></label>
 								<div class="input-group">
 									<div class="input-group-addon">
 										<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -169,8 +169,19 @@
 							</div><!-- /.form-group -->
 
 							<!-- reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="--TBD--"></div>
+
+							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 						</form>
 					</div><!-- /.col-md-8 -->
+				</div><!-- /.row -->
+
+				<!--empty area for form error/success output -->
+				<div class="row">
+					<div class="col-xs-12">
+						<div id="output-area"></div>
+					</div><!-- /.col-xs-12 -->
 				</div><!-- /.row -->
 			</div><!-- /.container contact -->
 		</section>
