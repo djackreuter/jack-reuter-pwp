@@ -128,8 +128,36 @@
 		<section>
 			<div class="container contact" id="contact">
 				<div class="row">
-					<div class="col-md-8">
-
+					<div class="col-xs-12 col-md-8">
+						<form id="contact-form" action="php/mailer.php" method="post">
+							<div class="form-group">
+								<label for="name">Name <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</div><!-- /.input-group-addon -->
+									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+								</div><!-- /.input-group -->
+							</div><!-- /.form-group -->
+							<div class="form-group">
+								<label for="email">Email<span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</div><!-- /.input-group-addon -->
+									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+								</div><!-- /.input-group -->
+							</div><!-- /.form-group -->
+							<div class="form-group">
+								<label for="subject">Subject</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</div><!-- /.input-group-addon -->
+									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+								</div><!-- /.input-group -->
+							</div><!-- /.form-group -->
+						</form>
 					</div><!-- /.col-md-8 -->
 				</div><!-- /.row -->
 			</div><!-- /.container contact -->
