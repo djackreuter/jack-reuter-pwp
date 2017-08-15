@@ -143,7 +143,7 @@
 								<label for="email">Email<span class="text-danger">*</span></label>
 								<div class="input-group">
 									<div class="input-group-addon">
-										<i class="fa fa-user" aria-hidden="true"></i>
+										<i class="fa fa-envelope" aria-hidden="true"></i>
 									</div><!-- /.input-group-addon -->
 									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 								</div><!-- /.input-group -->
@@ -152,11 +152,23 @@
 								<label for="subject">Subject</label>
 								<div class="input-group">
 									<div class="input-group-addon">
-										<i class="fa fa-user" aria-hidden="true"></i>
+										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div><!-- /.input-group-addon -->
-									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 								</div><!-- /.input-group -->
 							</div><!-- /.form-group -->
+							<div class="form-group">
+								<label for="message">Message <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-comment" aria-hidden="true"></i>
+									</div><!-- /.input-group-addon -->
+									<textarea class="form-control" rows="5" id="message" name="message"
+												 placeholder="Message (2000 characters max)"></textarea>
+								</div><!-- /.input-group -->
+							</div><!-- /.form-group -->
+
+							<!-- reCAPTCHA -->
 						</form>
 					</div><!-- /.col-md-8 -->
 				</div><!-- /.row -->
