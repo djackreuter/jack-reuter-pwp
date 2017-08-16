@@ -78,10 +78,10 @@
 		<section>
 			<div class="container about" id="about">
 				<div class="row">
-					<div class="col-md-5">
+					<div class="col-md-4">
 						<h2>About Me</h2>
-					</div>
-				</div>
+					</div><!-- /.col-md-4 -->
+				</div><!-- /.row -->
 				<div class="row">
 					<div>
 						<img class="img img-circle" src="images/placeholder-img.jpg" alt="placeholder"/>
@@ -102,6 +102,11 @@
 		</section>
 		<section>
 			<div class="container projects" id="portfolio">
+				<div class="row">
+					<div class="col-md-4">
+						<h2>Portfolio</h2>
+					</div><!-- /.col-md-4 -->
+				</div><!-- /.row -->
 				<div class="row">
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
@@ -127,6 +132,11 @@
 		</section>
 		<section>
 			<div class="container contact" id="contact">
+				<div class="row">
+					<div class="col-md-4">
+						<h2>Contact Me</h2>
+					</div><!-- /.col-md-4 -->
+				</div><!-- /.row -->
 				<div class="row">
 					<div class="col-xs-12 col-md-8">
 						<form id="contact-form" action="php/mailer.php" method="post">
