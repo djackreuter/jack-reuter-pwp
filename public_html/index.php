@@ -200,7 +200,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
-
+						<p>&copy; 2017</p>
+						<a href="https://github.com/djackreuter" target="_blank"><i class="fa fa-github"
+																										aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/in/jackreuter/" target="_blank"><i class="fa fa-linkedin-square"
+																										aria-hidden="true"></i></a>
+						<a href="https://twitter.com/djackreuter" target="_blank"><i class="fa fa-twitter-square"
+																										aria-hidden="true"></i></a>
 					</div><!-- /.col-xs-12 -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->

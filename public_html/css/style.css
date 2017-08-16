@@ -71,4 +71,14 @@ h3 {
 	text-align: center;
 }
 
+footer {
+	background: black;
+	min-height: 5rem;
+}
+
+footer a {
+	font-size: 5rem;
+	padding: 3rem;
+}
+
 
