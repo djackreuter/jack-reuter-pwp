@@ -1,3 +1,25 @@
+/* sticky footer */
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+ /* custom CSS */
+
 body {
 	background-color: rgba(36, 41, 43, 1);
 	font-family: monospace, Serif, SansSerif;
@@ -36,7 +58,7 @@ ul li a:hover {
 	color:black;
 }
 
-main {
+#home {
 	height: 100vh;
 	background: url(../images/surface-planets.jpg) no-repeat center;
 	background-attachment: fixed;
@@ -78,7 +100,15 @@ footer {
 
 footer a {
 	font-size: 5rem;
-	padding: 3rem;
+	padding: 0 3rem;
+}
+
+.links {
+	text-align: right;
+}
+
+.copyright {
+	padding-top: 2.5rem;
 }
 
 

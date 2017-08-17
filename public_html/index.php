@@ -44,8 +44,8 @@
 
 		<title>Jack Reuter | Online Portfolio</title>
 	</head>
-	<body>
-		<main id="home">
+	<body class="sfooter">
+		<div class="sfooter-content">
 			<header>
 				<nav class="navbar navbar-fixed-top" data-target="navbar" role="navigation">
 					<div class="container-fluid">
@@ -74,140 +74,145 @@
 					</div><!-- /.container-fluid -->
 				</nav>
 			</header>
-		</main>
-		<section>
-			<div class="container about" id="about">
-				<div class="row">
-					<div class="col-md-4">
-						<h2>About Me</h2>
-					</div><!-- /.col-md-4 -->
-				</div><!-- /.row -->
-				<div class="row">
-					<div>
-						<img class="img img-circle" src="images/placeholder-img.jpg" alt="placeholder"/>
-					</div>
-					<div class="col-md-9">
-						<p>Pellentesque sed bibendum eros, vitae malesuada lorem. Ut posuere, purus id convallis gravida,
-							elit nunc commodo leo, quis euismod felis velit at orci. Ut sapien purus, condimentum eget arcu
-							nec, volutpat condimentum dui. Fusce gravida mauris et nisl vulputate iaculis. Orci varius
-							natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ultrices nisi
-							vel pulvinar finibus. Etiam egestas massa augue, vel dictum nisl mollis et. Curabitur sit amet
-							orci in lectus iaculis auctor eget vitae neque. Etiam ut risus at justo bibendum tempus vel
-							vulputate ligula. Etiam et nulla nec augue ultricies efficitur. Curabitur euismod, nisi iaculis
-							vestibulum facilisis, ligula justo commodo lacus, eget eleifend dolor eros pharetra neque. Duis
-							et metus lacus. Pellentesque rutrum risus vel tellus pharetra pretium.</p>
-					</div>
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</section>
-		<section>
-			<div class="container projects" id="portfolio">
-				<div class="row">
-					<div class="col-md-4">
-						<h2>Portfolio</h2>
-					</div><!-- /.col-md-4 -->
-				</div><!-- /.row -->
-				<div class="row">
-					<div class="col-sm-6 col-md-4">
-						<div class="thumbnail">
-							<a href="images/acme.png" data-lightbox="images"><img
-									src="images/acme-small.png" alt="acme web design"/></a>
-							<div class="caption">
-								<h3>Acme Web Design</h3>
-							</div><!-- /.caption -->
-						</div><!-- /.thumbnail -->
-					</div><!-- /.col-sm-6 col-md-4 -->
-					<div class="col-sm-6 col-md-4">
-						<div class="thumbnail">
-							<a href="images/placeholder-2.jpg" data-lightbox="images">
-								<img src="images/placeholder-2-small.jpg" alt="place holder
+			<section id="home">
+
+			</section>
+			<section>
+				<div class="container about" id="about">
+					<div class="row">
+						<div class="col-md-4">
+							<h2>About Me</h2>
+						</div><!-- /.col-md-4 -->
+					</div><!-- /.row -->
+					<div class="row">
+						<div>
+							<img class="img img-circle" src="images/placeholder-img.jpg" alt="placeholder"/>
+						</div>
+						<div class="col-md-9">
+							<p>Pellentesque sed bibendum eros, vitae malesuada lorem. Ut posuere, purus id convallis gravida,
+								elit nunc commodo leo, quis euismod felis velit at orci. Ut sapien purus, condimentum eget arcu
+								nec, volutpat condimentum dui. Fusce gravida mauris et nisl vulputate iaculis. Orci varius
+								natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ultrices nisi
+								vel pulvinar finibus. Etiam egestas massa augue, vel dictum nisl mollis et. Curabitur sit amet
+								orci in lectus iaculis auctor eget vitae neque. Etiam ut risus at justo bibendum tempus vel
+								vulputate ligula. Etiam et nulla nec augue ultricies efficitur. Curabitur euismod, nisi iaculis
+								vestibulum facilisis, ligula justo commodo lacus, eget eleifend dolor eros pharetra neque. Duis
+								et metus lacus. Pellentesque rutrum risus vel tellus pharetra pretium.</p>
+						</div>
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</section>
+			<section>
+				<div class="container projects" id="portfolio">
+					<div class="row">
+						<div class="col-md-4">
+							<h2>Portfolio</h2>
+						</div><!-- /.col-md-4 -->
+					</div><!-- /.row -->
+					<div class="row">
+						<div class="col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<a href="images/acme.png" data-lightbox="images"><img
+										src="images/acme-small.png" alt="acme web design"/></a>
+								<div class="caption">
+									<h3>Acme Web Design</h3>
+								</div><!-- /.caption -->
+							</div><!-- /.thumbnail -->
+						</div><!-- /.col-sm-6 col-md-4 -->
+						<div class="col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<a href="images/placeholder-2.jpg" data-lightbox="images">
+									<img src="images/placeholder-2-small.jpg" alt="place holder
 								picture"/></a>
-							<div class="caption">
-								<h3>Place Holder Project</h3>
-							</div><!-- /.caption -->
-						</div><!-- /.thumbnail -->
-					</div><!-- /.col-sm-6 col-md-4 -->
-				</div><!-- /.row -->
-			</div><!-- /. container projects -->
-		</section>
-		<section>
-			<div class="container contact" id="contact">
-				<div class="row">
-					<div class="col-md-4">
-						<h2>Contact Me</h2>
-					</div><!-- /.col-md-4 -->
-				</div><!-- /.row -->
-				<div class="row">
-					<div class="col-xs-12 col-md-8">
-						<form id="contact-form" action="php/mailer.php" method="post">
-							<div class="form-group">
-								<label for="name">Name <span class="text-danger">*</span></label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-user" aria-hidden="true"></i>
-									</div><!-- /.input-group-addon -->
-									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
-								</div><!-- /.input-group -->
-							</div><!-- /.form-group -->
-							<div class="form-group">
-								<label for="email">Email <span class="text-danger">*</span></label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-envelope" aria-hidden="true"></i>
-									</div><!-- /.input-group-addon -->
-									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
-								</div><!-- /.input-group -->
-							</div><!-- /.form-group -->
-							<div class="form-group">
-								<label for="subject">Subject</label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-pencil" aria-hidden="true"></i>
-									</div><!-- /.input-group-addon -->
-									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-								</div><!-- /.input-group -->
-							</div><!-- /.form-group -->
-							<div class="form-group">
-								<label for="message">Message <span class="text-danger">*</span></label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-comment" aria-hidden="true"></i>
-									</div><!-- /.input-group-addon -->
-									<textarea class="form-control" rows="5" id="message" name="message"
-												 placeholder="Message (2000 characters max)"></textarea>
-								</div><!-- /.input-group -->
-							</div><!-- /.form-group -->
+								<div class="caption">
+									<h3>Place Holder Project</h3>
+								</div><!-- /.caption -->
+							</div><!-- /.thumbnail -->
+						</div><!-- /.col-sm-6 col-md-4 -->
+					</div><!-- /.row -->
+				</div><!-- /. container projects -->
+			</section>
+			<section>
+				<div class="container contact" id="contact">
+					<div class="row">
+						<div class="col-md-4">
+							<h2>Contact Me</h2>
+						</div><!-- /.col-md-4 -->
+					</div><!-- /.row -->
+					<div class="row">
+						<div class="col-xs-12 col-md-8">
+							<form id="contact-form" action="php/mailer.php" method="post">
+								<div class="form-group">
+									<label for="name">Name <span class="text-danger">*</span></label>
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="fa fa-user" aria-hidden="true"></i>
+										</div><!-- /.input-group-addon -->
+										<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+									</div><!-- /.input-group -->
+								</div><!-- /.form-group -->
+								<div class="form-group">
+									<label for="email">Email <span class="text-danger">*</span></label>
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="fa fa-envelope" aria-hidden="true"></i>
+										</div><!-- /.input-group-addon -->
+										<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+									</div><!-- /.input-group -->
+								</div><!-- /.form-group -->
+								<div class="form-group">
+									<label for="subject">Subject</label>
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="fa fa-pencil" aria-hidden="true"></i>
+										</div><!-- /.input-group-addon -->
+										<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+									</div><!-- /.input-group -->
+								</div><!-- /.form-group -->
+								<div class="form-group">
+									<label for="message">Message <span class="text-danger">*</span></label>
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="fa fa-comment" aria-hidden="true"></i>
+										</div><!-- /.input-group-addon -->
+										<textarea class="form-control" rows="5" id="message" name="message"
+													 placeholder="Message (2000 characters max)"></textarea>
+									</div><!-- /.input-group -->
+								</div><!-- /.form-group -->
 
-							<!-- reCAPTCHA -->
-							<div class="g-recaptcha" data-sitekey="--TBD--"></div>
+								<!-- reCAPTCHA -->
+								<div class="g-recaptcha" data-sitekey="--TBD--"></div>
 
-							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-						</form>
-					</div><!-- /.col-md-8 -->
-				</div><!-- /.row -->
+								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+								<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+							</form>
+						</div><!-- /.col-md-8 -->
+					</div><!-- /.row -->
 
-				<!--empty area for form error/success output -->
-				<div class="row">
-					<div class="col-xs-12">
-						<div id="output-area"></div>
-					</div><!-- /.col-xs-12 -->
-				</div><!-- /.row -->
-			</div><!-- /.container contact -->
-		</section>
+					<!--empty area for form error/success output -->
+					<div class="row">
+						<div class="col-xs-12">
+							<div id="output-area"></div>
+						</div><!-- /.col-xs-12 -->
+					</div><!-- /.row -->
+				</div><!-- /.container contact -->
+			</section>
+		</div><!-- /.sfooter-content -->
 
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12">
+					<div class="col-xs-6 copyright">
 						<p>&copy; 2017</p>
+					</div><!-- /.col-xs-6 -->
+					<div class="col-xs-6 links">
 						<a href="https://github.com/djackreuter" target="_blank"><i class="fa fa-github"
 																										aria-hidden="true"></i></a>
 						<a href="https://www.linkedin.com/in/jackreuter/" target="_blank"><i class="fa fa-linkedin-square"
-																										aria-hidden="true"></i></a>
+																													aria-hidden="true"></i></a>
 						<a href="https://twitter.com/djackreuter" target="_blank"><i class="fa fa-twitter-square"
-																										aria-hidden="true"></i></a>
-					</div><!-- /.col-xs-12 -->
+																										 aria-hidden="true"></i></a>
+					</div><!-- /.col-xs-6 -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</footer>
