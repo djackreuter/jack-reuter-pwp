@@ -200,7 +200,7 @@
 		</div><!-- /.sfooter-content -->
 
 		<footer>
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-6 copyright">
 						<p>&copy; 2017</p>
