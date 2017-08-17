@@ -203,7 +203,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-6 copyright">
-						<p>&copy; 2017</p>
+						<p>Copyright &copy; 2017</p>
 					</div><!-- /.col-xs-6 -->
 					<div class="col-xs-6 links">
 						<a href="https://github.com/djackreuter" target="_blank"><i class="fa fa-github"
