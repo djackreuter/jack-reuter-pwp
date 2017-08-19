@@ -21,6 +21,8 @@
 				rel="stylesheet"/>
 
 		<!-- Custom CSS Here -->
+		<link rel="shortcut icon" href="images/j-icon.ico"/>
+
 		<link href="css/style.css" rel="stylesheet"/>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
