@@ -60,7 +60,7 @@ ul li a:hover {
 
 #home {
 	height: 100vh;
-	background: url(../images/surface-planets.jpg) no-repeat center;
+	background: url(../images/background2.JPG) no-repeat center;
 	background-attachment: fixed;
 	background-size: cover;
 	opacity: 0.5;

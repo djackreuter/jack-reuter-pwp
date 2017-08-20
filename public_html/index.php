@@ -88,7 +88,7 @@
 					</div><!-- /.row -->
 					<div class="row">
 						<div>
-							<img class="img img-circle" src="images/placeholder-img.jpg" alt="placeholder"/>
+							<img class="img img-circle" src="images/about-me.jpg" alt="me"/>
 						</div>
 						<div class="col-md-9">
 							<p>Pellentesque sed bibendum eros, vitae malesuada lorem. Ut posuere, purus id convallis gravida,
