@@ -98,8 +98,8 @@
 								where I gained solid knowledge on essential web technologies, and built sites utilizing both
 								frontend and backend languages. I have experience working with HTML5, CSS3, JavaScript, PHP, and
 								MySQL. As well as popular libraries and frameworks such as Bootstrap, jQuery, and Angular. In
-								my free time I enjoy spending time outdoors or watching soccer and cheering on Manchester
-								City or the Seattle Sounders.
+								my free time I enjoy spending time outdoors and enjoying the New Mexico weather. I also love
+								watching soccer, and am a strong supporter of Manchester City and the Seattle Sounders.
 							</p>
 						</div>
 					</div><!-- /.row -->
