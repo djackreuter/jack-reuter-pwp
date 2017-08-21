@@ -91,15 +91,16 @@
 							<img class="img img-circle" src="images/about-me.jpg" alt="me"/>
 						</div>
 						<div class="col-md-9">
-							<p>Pellentesque sed bibendum eros, vitae malesuada lorem. Ut posuere, purus id convallis gravida,
-								elit nunc commodo leo, quis euismod felis velit at orci. Ut sapien purus, condimentum eget arcu
-								nec, volutpat condimentum dui. Fusce gravida mauris et nisl vulputate iaculis. Orci varius
-								natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ultrices nisi
-								vel pulvinar finibus. Etiam egestas massa augue, vel dictum nisl mollis et. Curabitur sit amet
-								orci in lectus iaculis auctor eget vitae neque. Etiam ut risus at justo bibendum tempus vel
-								vulputate ligula. Etiam et nulla nec augue ultricies efficitur. Curabitur euismod, nisi iaculis
-								vestibulum facilisis, ligula justo commodo lacus, eget eleifend dolor eros pharetra neque. Duis
-								et metus lacus. Pellentesque rutrum risus vel tellus pharetra pretium.</p>
+							<p>Hi I'm Jack Reuter, I am a full-stack web developer born and raised in Albuquerque, NM. I
+								attended The University of New Mexico and received my B.A. in Communication in 2016. Upon
+								graduation, I decided that my passion was not in the field of communication, but rather in
+								the world of software development. I attended the Deep Dive Coding bootcamp in Albuquerque
+								where I gained solid knowledge on essential web technologies, and built sites utilizing both
+								frontend and backend languages. I have experience working with HTML5, CSS3, JavaScript, PHP, and
+								MySQL. As well as popular libraries and frameworks such as Bootstrap, jQuery, and Angular. In
+								my free time I enjoy spending time outdoors or watching soccer and cheering on Manchester
+								City or the Seattle Sounders.
+							</p>
 						</div>
 					</div><!-- /.row -->
 				</div><!-- /.container -->
