@@ -46,10 +46,10 @@
 
 		<title>Jack Reuter | Online Portfolio</title>
 	</head>
-	<body class="sfooter">
+	<body class="sfooter" data-spy="scroll" data-target="#navbar">
 		<div class="sfooter-content">
 			<header>
-				<nav class="navbar navbar-fixed-top" data-target="navbar" role="navigation">
+				<nav class="navbar navbar-fixed-top" role="navigation">
 					<div class="container-fluid">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
@@ -96,7 +96,8 @@
 								graduation, I decided that my passion was not in the field of communication, but rather in
 								the world of software development. I attended the Deep Dive Coding bootcamp in Albuquerque
 								where I gained solid knowledge on essential web technologies, and built sites utilizing both
-								frontend and backend languages. I have experience working with HTML5, CSS3, JavaScript, PHP, and
+								frontend and backend languages. I have experience working with HTML5, CSS3, JavaScript, PHP,
+								and
 								MySQL. As well as popular libraries and frameworks such as Bootstrap, jQuery, and Angular. In
 								my free time I enjoy spending time outdoors and enjoying the New Mexico weather. I also love
 								watching soccer, and am a strong supporter of Manchester City and the Seattle Sounders.
@@ -169,7 +170,8 @@
 										<div class="input-group-addon">
 											<i class="fa fa-pencil" aria-hidden="true"></i>
 										</div><!-- /.input-group-addon -->
-										<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+										<input type="text" class="form-control" id="subject" name="subject"
+												 placeholder="Subject">
 									</div><!-- /.input-group -->
 								</div><!-- /.form-group -->
 								<div class="form-group">
