@@ -46,15 +46,15 @@
 
 		<title>Jack Reuter | Online Portfolio</title>
 	</head>
-	<body class="sfooter" data-spy="scroll" data-target="#navbar">
+	<body class="sfooter" data-spy="scroll" data-target="#nav-links">
 		<div class="sfooter-content">
 			<header>
-				<nav class="navbar navbar-fixed-top" role="navigation">
+				<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 					<div class="container-fluid">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse"
-									  data-target="#bs-example-navbar-collapse-1">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+									  data-target="#nav-links" aria-expanded="false">
 								<span class="sr-only">Toggle navigation</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
@@ -64,13 +64,12 @@
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div class="collapse navbar-collapse" id="nav-links">
 							<ul class="nav navbar-nav">
 								<li><a href="#home">Home</a></li>
 								<li><a href="#about">About</a></li>
 								<li><a href="#portfolio">Portfolio</a></li>
 								<li><a href="#contact">Contact</a></li>
-								<!-- add to footer <li class="social pull-right"><a href="#">Social Links</a></li> -->
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div><!-- /.container-fluid -->
