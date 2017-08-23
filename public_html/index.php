@@ -95,12 +95,11 @@
 								attended The University of New Mexico and received my B.A. in Communication in 2016. Upon
 								graduation, I decided that my passion was not in the field of communication, but rather in
 								the world of software development. I attended the Deep Dive Coding bootcamp in Albuquerque
-								where I gained solid knowledge on essential web technologies, and built sites utilizing both
+								where I gained solid knowledge of essential web technologies, and built sites utilizing both
 								frontend and backend languages. I have experience working with HTML5, CSS3, JavaScript, PHP,
-								and
-								MySQL. As well as popular libraries and frameworks such as Bootstrap, jQuery, and Angular. In
-								my free time I enjoy spending time outdoors and enjoying the New Mexico weather. I also love
-								watching soccer, and am a strong supporter of Manchester City and the Seattle Sounders.
+								and MySQL, as well as popular libraries and frameworks such as Bootstrap, jQuery, and Angular.
+								In my free time I enjoy spending time outdoors and enjoying the New Mexico weather. I also
+								love watching soccer, and am a strong supporter of Manchester City and the Seattle Sounders.
 							</p>
 						</div>
 					</div><!-- /.row -->
