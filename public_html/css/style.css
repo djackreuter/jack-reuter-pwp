@@ -25,6 +25,7 @@ body {
 	font-family: monospace, Serif, SansSerif;
 	color: white;
 	position: relative;
+	text-align: justify;
 }
 
 /* navbar */
