@@ -60,7 +60,7 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#">Jack Reuter</a>
+							<a class="navbar-brand" id="title" href="#">Jack Reuter</a>
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->

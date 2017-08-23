@@ -41,8 +41,8 @@ body {
 	height: 2rem;
 }
 
-.navbar-brand {
-	color: white;
+#title {
+	color: steelblue;
 }
 
 ul {
@@ -101,7 +101,6 @@ footer {
 
 footer a {
 	font-size: 5rem;
-	padding: 0 3rem;
 }
 
 .links {
@@ -111,5 +110,12 @@ footer a {
 .copyright {
 	padding-top: 2.5rem;
 }
+
+@media (min-width:720px) {
+	footer a {
+		padding: 0 3rem;
+	}
+}
+
 
 
