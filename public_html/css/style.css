@@ -62,7 +62,7 @@ ul li a:hover {
 #home {
 	height: 100vh;
 	background: url(../images/background2.JPG) no-repeat center;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	background-size: cover;
 	opacity: 0.5;
 	will-change: transform;
@@ -103,6 +103,7 @@ footer {
 
 footer a {
 	font-size: 5rem;
+	padding: 0 3rem;
 }
 
 .links {
@@ -113,12 +114,12 @@ footer a {
 	padding-top: 2.5rem;
 }
 
-@media (min-width:720px) {
+@media (max-width:720px) {
 	footer a {
-		padding: 0 3rem;
+		padding: 0;
 	}
 	#home {
-		background-attachment: fixed;
+		background-attachment: scroll;
 	}
 }
 
