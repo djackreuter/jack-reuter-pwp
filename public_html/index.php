@@ -78,8 +78,8 @@
 			<section id="home">
 
 			</section>
-			<section>
-				<div class="container about" id="about">
+			<section id="about">
+				<div class="container about">
 					<div class="row">
 						<div class="col-md-4 about-header">
 							<h2>About Me</h2>
@@ -104,8 +104,8 @@
 					</div><!-- /.row -->
 				</div><!-- /.container -->
 			</section>
-			<section>
-				<div class="container projects" id="portfolio">
+			<section id="portfolio">
+				<div class="container projects">
 					<div class="row">
 						<div class="col-md-4">
 							<h2>Portfolio</h2>
@@ -134,8 +134,8 @@
 					</div><!-- /.row -->
 				</div><!-- /. container projects -->
 			</section>
-			<section>
-				<div class="container contact" id="contact">
+			<section id="contact">
+				<div class="container contact">
 					<div class="row">
 						<div class="col-md-4">
 							<h2>Contact Me</h2>
