@@ -65,6 +65,7 @@ ul li a:hover {
 	background-attachment: fixed;
 	background-size: cover;
 	opacity: 0.5;
+	will-change: transform;
 }
 
 section {
