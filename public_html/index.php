@@ -54,11 +54,11 @@
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
 							<!-- button went here -->
-							<a class="navbar-brand" id="title" href="#">Jack Reuter</a>
+							<a class="navbar-brand hidden-xs" id="title" href="#">Jack Reuter</a>
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="nav-links">
+						<div id="nav-links"><!-- collapse navbar-collapse -->
 							<ul class="nav navbar-nav">
 								<li><a href="#home">Home</a></li>
 								<li><a href="#about">About</a></li>
