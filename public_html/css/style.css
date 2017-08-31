@@ -92,6 +92,14 @@ h3 {
 	text-align: center;
 }
 
+#output-area {
+	padding-top: 2rem;
+}
+
+.g-recaptcha {
+	padding-bottom: 1.2rem;
+}
+
 footer {
 	background: black;
 	min-height: 5rem;
