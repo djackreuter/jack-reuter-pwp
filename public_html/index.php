@@ -190,7 +190,7 @@
 								</div><!-- /.form-group -->
 
 								<!-- reCAPTCHA -->
-								<div class="g-recaptcha" data-sitekey="--TBD--"></div>
+								<div class="g-recaptcha" data-sitekey="6Leo6C4UAAAAAOcWFdfJ5xt0t7lbPh-I6kbGNBzB"></div>
 
 								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 								<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
