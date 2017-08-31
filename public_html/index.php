@@ -145,7 +145,8 @@
 					</div><!-- /.row -->
 					<div class="row">
 						<div class="col-xs-12 col-md-8">
-							<form id="contact-form" action="php/mailer.php" method="post">
+							<!-- Begin Contact Form -->
+							<form id="contact-form" action="php/mailer.php" method="post" novalidate>
 								<div class="form-group">
 									<label for="name">Name <span class="text-danger">*</span></label>
 									<div class="input-group">
@@ -191,14 +192,9 @@
 								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 								<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 							</form>
-						</div><!-- /.col-md-8 -->
-					</div><!-- /.row -->
-
-					<!--empty area for form error/success output -->
-					<div class="row">
-						<div class="col-xs-12">
+							<!--empty area for form error/success output -->
 							<div id="output-area"></div>
-						</div><!-- /.col-xs-12 -->
+						</div><!-- /.col-md-8 -->
 					</div><!-- /.row -->
 				</div><!-- /.container contact -->
 			</section>
