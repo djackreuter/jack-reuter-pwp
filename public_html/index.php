@@ -127,12 +127,14 @@
 							</div><!-- /.thumbnail -->
 						</div><!-- /.col-sm-6 col-md-4 -->
 						<div class="col-sm-6 col-md-4">
+							<!--
 							<div class="thumbnail">
 								<a href="images/placeholder-2.jpg" data-lightbox="images">
 									<img src="images/placeholder-2-small.jpg" alt="place holder
 								picture"/></a>
 								<div class="caption">
 									<h3>Place Holder Project</h3>
+									-->
 								</div><!-- /.caption -->
 							</div><!-- /.thumbnail -->
 						</div><!-- /.col-sm-6 col-md-4 -->

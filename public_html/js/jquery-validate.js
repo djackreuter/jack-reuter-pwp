@@ -4,7 +4,7 @@ $(document).ready(function(){
 	$("#contact-form").validate({
 
 		// setup handling of form errors
-		debug: true,
+		debug: false,
 		errorClass: "alert alert-danger",
 		errorLabelContainer: "#output-area",
 		errorElement: "div",
