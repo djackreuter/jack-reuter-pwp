@@ -1,4 +1,5 @@
 RewriteEngine on
+RewriteCond %{HTTPS} !=on
 RewriteCond %{HTTP_HOST} ^jackreuter.com$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.jackreuter.com$
 RewriteCond %{REQUEST_URI} !public_html/
