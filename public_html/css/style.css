@@ -124,12 +124,15 @@ footer a {
 	}
 }
 
+@media (max-width: 768px) {
+	#home {
+		background-attachment: scroll;
+	}
+}
+
 @media (max-width:767px) {
 	footer a {
 		padding: 0;
-	}
-	#home {
-		background-attachment: scroll;
 	}
 	ul.navbar-nav {
 		position: static;
