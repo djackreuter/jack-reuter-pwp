@@ -23,3 +23,26 @@ I recommend FontAwesome for iconography, and Google Fonts for custom typography.
 We will be covering the wiring of the contact form in the weeks to come. In the meantime, build out the form using Bootstrap. The full form wiring documentation is here if you'd like to read ahead: https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/
 
 Your Milestone 2a passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You are clear to begin development on your PWP. You'll want to build your PWP page in the following location: `public_html/index.php`, and the next Milestone will be a mid-development checkin. Nice work! 
+
+## Milestone 2b
+Your Milestone 2b passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+## PWP Milestone 3 Feedback
+Nice work - you've done a great job creating an attractive page that promotes your skills in a visually engaging way. Going forward there is certainly room to add additional content as your portfolio grows. 
+
+One thing strikes me as I look at it here on my second screen... there's a lot of negative space available on the large image area that's not being used. It might be a good place for a tagline or "call-to-action" of some sort. Think about using this space to your advantage - it's front and center. 
+
+Your code looks great overall, and nice work on the styling. Your contact form appears to work correctly too - check your email and see if you received my test message.
+
+Your Milestone 3 passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
+
+Your overall grade across all of your PWP Milestones is 40/40 points (100%).
+
+- Milestone 1 - 20%: Tier IV 40(0.2) = 8
+- Milestone 2a - 20%: Tier IV 40(0.2) = 8
+- Milestone 2b - 10%: Tier IV 40(0.1) = 4
+- Milestone 3 - 50%: Tier IV 40(0.5) = 20
+
+### Edits &amp; Suggestions
+- Some elements in the Portfolio section were commented out in a funny order, and leaves some stray tags/unclosed elements. Remove lines 152 and 153 and you should be good to go.
+- I realize we didn't talk about favicons in class (ran out of time), but check out this tool to generate a comprehensive suite of icons that's compatible across many different devices: https://realfavicongenerator.net/
