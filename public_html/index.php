@@ -35,9 +35,12 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- jquery validate file -->
 		<script type="text/javascript" src="js/jquery-validate.js"></script>
@@ -59,10 +62,17 @@
 
 		<!-- Google Analytics -->
 		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			(function(i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] || function() {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o),
+					m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
 			ga('create', 'UA-105677414-1', 'auto');
 			ga('send', 'pageview');
@@ -130,23 +140,22 @@
 					</div><!-- /.row -->
 					<div class="row">
 						<div class="col-sm-6 col-md-4">
+							<!-- thumbnail images are 274 x 163 -->
 							<div class="thumbnail">
 								<a href="images/acme.png" data-lightbox="images"><img
-										src="images/acme-small.png" alt="acme web design"/></a>
+										src="images/acme-home-small.png" alt="acme web design"/></a>
 								<div class="caption">
 									<h3>Acme Web Design</h3>
 								</div><!-- /.caption -->
 							</div><!-- /.thumbnail -->
 						</div><!-- /.col-sm-6 col-md-4 -->
 						<div class="col-sm-6 col-md-4">
-							<!--
+							<!-- thumbnail images are 274 x 163 -->
 							<div class="thumbnail">
-								<a href="images/placeholder-2.jpg" data-lightbox="images">
-									<img src="images/placeholder-2-small.jpg" alt="place holder
-								picture"/></a>
+								<a href="images/deepDiveTutor.png" data-lightbox="images">
+									<img src="images/deepDiveTutor-small.png" alt="deep dive tutor"/></a>
 								<div class="caption">
-									<h3>Place Holder Project</h3>
-									-->
+									<h3>Deep Dive Tutor</h3>
 								</div><!-- /.caption -->
 							</div><!-- /.thumbnail -->
 						</div><!-- /.col-sm-6 col-md-4 -->
