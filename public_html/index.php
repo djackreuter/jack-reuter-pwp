@@ -149,6 +149,7 @@
 								</div><!-- /.caption -->
 							</div><!-- /.thumbnail -->
 						</div><!-- /.col-sm-6 col-md-4 -->
+
 						<div class="col-sm-6 col-md-4">
 							<!-- thumbnail images are 274 x 163 -->
 							<div class="thumbnail">
@@ -156,6 +157,17 @@
 									<img src="images/deepDiveTutor-small.png" alt="deep dive tutor"/></a>
 								<div class="caption">
 									<h3>Deep Dive Tutor</h3>
+								</div><!-- /.caption -->
+							</div><!-- /.thumbnail -->
+						</div><!-- /.col-sm-6 col-md-4 -->
+
+						<div class="col-sm-6 col-md-4">
+							<!-- thumbnail images are 274 x 163 -->
+							<div class="thumbnail">
+								<a href="images/todo-list.png" data-lightbox="images">
+									<img src="images/todo-list-small.png" alt="to-do list"/></a>
+								<div class="caption">
+									<h3>To-Do List</h3>
 								</div><!-- /.caption -->
 							</div><!-- /.thumbnail -->
 						</div><!-- /.col-sm-6 col-md-4 -->
