@@ -171,9 +171,7 @@
 								</div><!-- /.caption -->
 							</div><!-- /.thumbnail -->
 						</div><!-- /.col-sm-6 col-md-4 -->
-					</div><!-- /.row -->
-					<!-- New Row -->
-					<div class="row">
+
 						<div class="col-sm-6 col-md-4">
 							<div class="thumbnail">
 								<a href="https://githubfinder.jackreuter
