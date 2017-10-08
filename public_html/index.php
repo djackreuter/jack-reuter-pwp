@@ -172,6 +172,18 @@
 							</div><!-- /.thumbnail -->
 						</div><!-- /.col-sm-6 col-md-4 -->
 					</div><!-- /.row -->
+					<!-- New Row -->
+					<div class="row">
+						<div class="col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<a href="https://githubfinder.jackreuter
+								.com" target="_blank"><img src="images/github-finder-small.png" alt="github finder"/></a>
+								<div class="caption">
+									<h3>Github Finder</h3>
+								</div><!-- /.caption -->
+							</div><!-- /.thumbnail -->
+						</div><!-- /.col-sm-6 col-md-4 -->
+					</div><!-- /.row -->
 				</div><!-- /. container projects -->
 			</section>
 			<section id="contact">
