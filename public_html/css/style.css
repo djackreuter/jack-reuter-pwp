@@ -21,11 +21,17 @@ body { width: 100%;}
  /* custom CSS */
 
 body {
-	background-color: rgba(36, 41, 43, 1);
+	background: linear-gradient(to top left, royalblue, steelblue);
 	font-family: monospace, Serif, SansSerif;
 	color: white;
 	position: relative;
 	text-align: justify;
+}
+
+.well {
+	padding: 1.5rem;
+	background: steelblue;
+	border: 3px solid black;
 }
 
 /* navbar */
