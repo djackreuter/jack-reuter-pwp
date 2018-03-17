@@ -8,8 +8,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 				integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<!-- Font Awesome -->
-		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-				rel="stylesheet"/>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
 		<!-- Custom CSS -->
 		<link rel="shortcut icon" href="images/j-icon.ico"/>
 		<link href="css/style.css" rel="stylesheet"/>
@@ -44,8 +44,6 @@
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 
-		<script type="text/javascript" src="js/script.js"></script>
-
 		<title>Jack Reuter</title>
 
 		<!-- Google Analytics -->
@@ -77,7 +75,7 @@
 						</div>
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<p>Hi I'm Jack Reuter, Linux enthusiast and full-stack developer in Santa Fe, NM. I use Ubuntu
+								<p class="mt-2">Hi I'm Jack Reuter, Linux enthusiast and full-stack developer in Santa Fe, NM. I use Ubuntu
 									as
 									my daily driver, and work primarily with Ruby and Javascript. I also have experience with
 									PHP,
@@ -111,7 +109,7 @@
 								</div>
 								<div class="input-group mb-3">
 									<div class="input-group-prepend">
-										<span class="mr-1 hide">*</span><span class="input-group-text" id="basic-addon1"><i class="fa fa-pencil" aria-hidden="true"></i></span>
+										<span class="mr-1 hide">*</span><span class="input-group-text" id="basic-addon1"><i class="fas fa-pencil-alt" aria-hidden="true"></i></span>
 									</div>
 									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" aria-label="subject" aria-describedby="basic-addon1">
 								</div>
@@ -137,13 +135,13 @@
 		<footer>
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-6 copyright">
+					<div class="col copyright">
 						<p>Copyright &copy; 2018</p>
 					</div><!-- /.col-xs-6 -->
-					<div class="col-xs-6 links">
-						<a href="https://github.com/djackreuter" target="_blank"><i class="fa fa-github"
+					<div class="col links">
+						<a href="https://github.com/djackreuter" target="_blank"><i class="fab fa-github icons"
 																										aria-hidden="true"></i></a>
-						<a href="https://www.linkedin.com/in/jackreuter/" target="_blank"><i class="fa fa-linkedin-square"
+						<a href="https://www.linkedin.com/in/jackreuter/" target="_blank"><i class="fab fa-linkedin icons"
 																													aria-hidden="true"></i></a>
 					</div><!-- /.col-xs-6 -->
 				</div><!-- /.row -->
