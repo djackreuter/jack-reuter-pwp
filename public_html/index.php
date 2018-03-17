@@ -5,33 +5,25 @@
 		<meta http-equiv="X-UA-Compatable" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-		<!-- LightBox CSS -->
-		<link href="css/lightbox.min.css" rel="stylesheet">
-
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-				integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+				integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<!-- Font Awesome -->
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 				rel="stylesheet"/>
-
-		<!-- Custom CSS Here -->
+		<!-- Custom CSS -->
 		<link rel="shortcut icon" href="images/j-icon.ico"/>
-
 		<link href="css/style.css" rel="stylesheet"/>
 
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-		<script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-
 		<!-- jQuery v3.0 -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+				  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+				  crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+				  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+				  crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+				  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+				  crossorigin="anonymous"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript"
@@ -47,9 +39,6 @@
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
-		<!-- LightBox JavaScript -->
-		<script type="text/javascript" src="js/lightbox.min.js"></script>
-
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
@@ -57,7 +46,7 @@
 
 		<script type="text/javascript" src="js/script.js"></script>
 
-		<title>Jack Reuter | Online Portfolio</title>
+		<title>Jack Reuter</title>
 
 		<!-- Google Analytics -->
 		<script>
@@ -78,98 +67,78 @@
 
 		</script>
 	</head>
-	<body class="sfooter" data-spy="scroll" data-target="#nav-links">
+	<body class="sfooter">
 		<div class="sfooter-content">
-			<section id="about">
-				<div class="container about">
-					<div class = "well">
-						<div class="row">
-							<div class="col-md-3 col-xs-12">
-								<img class="img img-circle" src="images/about-me.jpg" alt="me"/>
-							</div>
+			<div class="container mt-5">
+				<div class = "card about-card">
+					<div class="row justify-content-center">
+						<div class="col-xs-12">
+							<img class="img rounded-circle" src="images/about-me.jpg" alt="me"/>
 						</div>
-						<div class = "row">
-							<div class="col-md-9">
-								<p>Hi I'm Jack Reuter, Linux enthusiast and full-stack developer in Santa Fe, NM. I use Ubuntu as
-									my daily driver, and work primarily with Ruby and Javascript. I also have experience with PHP,
+						<div class="row justify-content-center">
+							<div class="col-md-12">
+								<p>Hi I'm Jack Reuter, Linux enthusiast and full-stack developer in Santa Fe, NM. I use Ubuntu
+									as
+									my daily driver, and work primarily with Ruby and Javascript. I also have experience with
+									PHP,
 									and other Linux distro's like Fedora and Debian. In my free time I enjoy spending time
 									outdoors. I also love watching soccer, and am a strong supporter of Manchester City and the
 									Seattle Sounders.
 								</p>
 							</div>
-						</div><!-- /.row -->
+						</div>
 					</div>
-				</div><!-- /.container -->
-			</section>
-			<section id="contact">
-				<div class="container contact">
-					<div class="row">
-						<div class="col-md-4">
+				</div>
+			</div><!-- /.container -->
+			<div class="container mt-5">
+				<div class="row justify-content-center">
+					<div class="col-xs-12 col-md-8">
+						<div class="contact-card mb-5">
 							<h2>Contact Me</h2>
-						</div><!-- /.col-md-4 -->
-					</div><!-- /.row -->
-					<div class="row">
-						<div class="col-xs-12 col-md-8">
 							<!-- Begin Contact Form -->
 							<form id="contact-form" action="php/mailer.php" method="post" novalidate>
-								<div class="form-group">
-									<label for="name">Name <span class="text-danger">*</span></label>
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-user" aria-hidden="true"></i>
-										</div><!-- /.input-group-addon -->
-										<input type="text" class="form-control" id="name" name="name" placeholder="Name">
-									</div><!-- /.input-group -->
-								</div><!-- /.form-group -->
-								<div class="form-group">
-									<label for="email">Email <span class="text-danger">*</span></label>
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-envelope" aria-hidden="true"></i>
-										</div><!-- /.input-group-addon -->
-										<input type="email" class="form-control" id="email" name="email" placeholder="Email">
-									</div><!-- /.input-group -->
-								</div><!-- /.form-group -->
-								<div class="form-group">
-									<label for="subject">Subject</label>
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-pencil" aria-hidden="true"></i>
-										</div><!-- /.input-group-addon -->
-										<input type="text" class="form-control" id="subject" name="subject"
-												 placeholder="Subject">
-									</div><!-- /.input-group -->
-								</div><!-- /.form-group -->
-								<div class="form-group">
-									<label for="message">Message <span class="text-danger">*</span></label>
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-comment" aria-hidden="true"></i>
-										</div><!-- /.input-group-addon -->
-										<textarea class="form-control" rows="5" id="message" name="message"
-													 placeholder="Message (2000 characters max)"></textarea>
-									</div><!-- /.input-group -->
-								</div><!-- /.form-group -->
-
+								<div class="input-group mb-3">
+									<div class="input-group-prepend">
+										<span class="text-danger mr-1">*</span><span class="input-group-text" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+									</div>
+									<input type="text" class="form-control" id="name" name="name" placeholder="Name" aria-label="name" aria-describedby="basic-addon1">
+								</div>
+								<div class="input-group mb-3">
+									<div class="input-group-prepend">
+										<span class="text-danger mr-1">*</span><span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+									</div>
+									<input type="email" class="form-control" id="email" name="email" placeholder="Email" aria-label="email" aria-describedby="basic-addon1">
+								</div>
+								<div class="input-group mb-3">
+									<div class="input-group-prepend">
+										<span class="mr-1 hide">*</span><span class="input-group-text" id="basic-addon1"><i class="fa fa-pencil" aria-hidden="true"></i></span>
+									</div>
+									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" aria-label="subject" aria-describedby="basic-addon1">
+								</div>
+								<div class="input-group mb-3">
+									<div class="input-group-prepend">
+										<span class="text-danger mr-1">*</span><span class="input-group-text" id="basic-addon1"><i class="fa fa-comment" aria-hidden="true"></i></span>
+									</div>
+									<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)" aria-label="message" aria-describedby="basic-addon1"></textarea>
+								</div>
 								<!-- reCAPTCHA -->
-								<div class="g-recaptcha" data-sitekey="6Leo6C4UAAAAAOcWFdfJ5xt0t7lbPh-I6kbGNBzB"></div>
-
-								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+								<div class="g-recaptcha ml-2" data-sitekey="6Leo6C4UAAAAAOcWFdfJ5xt0t7lbPh-I6kbGNBzB"></div>
+								<button class="btn btn-success ml-2" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 								<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 							</form>
 							<!--empty area for form error/success output -->
 							<div id="output-area"></div>
-						</div><!-- /.col-md-8 -->
-					</div><!-- /.row -->
-				</div><!-- /.container contact -->
-			</section>
+						</div>
+					</div><!-- /.col-md-8 -->
+				</div><!-- /.row -->
+			</div><!-- /.container contact -->
 		</div><!-- /.sfooter-content -->
 
 		<footer>
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-6 copyright">
-						<p>Copyright &copy; 2017</p>
+						<p>Copyright &copy; 2018</p>
 					</div><!-- /.col-xs-6 -->
 					<div class="col-xs-6 links">
 						<a href="https://github.com/djackreuter" target="_blank"><i class="fa fa-github"
