@@ -28,10 +28,20 @@ body {
 	text-align: justify;
 }
 
-.well {
-	padding: 1.5rem;
+.about-card {
+	padding: 0.5rem 2rem;
 	background: steelblue;
-	border: 3px solid black;
+	border: 1px solid black;
+	box-shadow: 0 0 1rem black;
+}
+
+.contact-card {
+	padding: 1rem 2rem 0 1rem;
+	box-shadow: 0 0 1rem black;
+}
+
+.hide {
+	visibility: hidden;
 }
 
 /* navbar */
