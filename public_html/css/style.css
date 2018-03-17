@@ -44,72 +44,13 @@ body {
 	visibility: hidden;
 }
 
-/* navbar */
-.navbar-nav {
-	width: 100%;
-	text-align: center;
-}
-.navbar-nav > li {
-	float: none;
-	display: inline-block;
-}
-
-#title {
-	color: steelblue;
-}
-
-ul {
-	position: relative;
-	bottom: 5rem;
-}
-
-ul li a {
-	color: white;
-}
-
-ul li a:hover {
-	color:black;
-}
-
-#home {
-	height: 100vh;
-	background: url(../images/background2.JPG) no-repeat center;
-	background-attachment: fixed;
-	background-size: cover;
-	opacity: 0.5;
-	will-change: transform;
-}
-
-section {
-	padding: 10rem 0;
-}
-
-.img {
-	float: left;
-	margin-right: 2.5rem;
-	margin-bottom: 1rem;
-}
 
 h2 {
 	margin-left: 1rem;
 }
 
-.about-header {
-	margin-left: 1.5rem;
-}
-
-h3 {
-	color: black;
-}
-
-.thumbnail {
-	border: 2px solid black;
-	background: lightgray;
-	text-align: center;
-}
-
 #output-area {
-	padding-top: 2rem;
+	padding: 1rem 0;
 }
 
 .g-recaptcha {
@@ -122,53 +63,25 @@ footer {
 }
 
 footer a {
-	font-size: 5rem;
-	padding: 0 3rem;
+	font-size: 3rem;
+	padding: 0 2rem;
 }
 
 .links {
 	text-align: right;
 }
 
+.icons {
+	margin-top: 1rem;
+}
+
 .copyright {
-	padding-top: 2.5rem;
-}
-
-@media (min-width: 768px) {
-	.nav, .navbar-inverse {
-		height: 2rem;
-	}
-}
-
-@media (max-width: 768px) {
-	#home {
-		background-attachment: scroll;
-	}
+	padding-top: 2rem;
 }
 
 @media (max-width:767px) {
 	footer a {
 		padding: 0;
 	}
-	ul.navbar-nav {
-		position: static;
-	}
 }
-
-.navbar-inverse .navbar-nav > li > a {
-	color: #fff;
-}
-
-.navbar-inverse .navbar-nav > li > a:focus {
-	color: steelblue;
-	background-color: transparent;
-}
-
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus {
-	color: steelblue;
-	background-color: #080808;
-}
-
 
